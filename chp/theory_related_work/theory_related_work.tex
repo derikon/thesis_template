@@ -4,7 +4,50 @@
 \label{cha:related_work}
 
 \blindmathtrue
-\Blindtext[11]
+\Blindtext
+
+\begin{figure}[h!]
+\centering
+\subfloat[fig 1%
+	\label{fig:figID_1}]{%
+	\includegraphics[width=0.35\linewidth]{img/PDF_1}
+}
+\quad\quad\quad
+\subfloat[fig 2%
+	\label{fig:figID_2}]{%
+	\includegraphics[width=0.35\linewidth]{img/PDF_2}
+}
+\\
+\subfloat[fig 3%
+	\label{fig:figID_3}]{%
+	\includegraphics[width=0.35\linewidth]{img/PDF_3}
+}
+\quad\quad\quad
+\subfloat[fig 4%
+	\label{fig:figID_4}]{%
+	\includegraphics[width=0.35\linewidth]{img/PDF_4}
+}
+\vspace{2mm}
+\hrule
+\caption{In der Bildunterschrift wird beschrieben, was in den einzelnen Bildern zu sehen ist. Hier werden vier PDF-Dateien geladen.}
+\label{fig:figID}
+\end{figure}
+
+
+\Blindtext[2]
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.4\linewidth]{img/EPS}
+	\vspace{2mm}
+	\hrule
+	\caption{Auch EPS-Dateien können geladen werden.}
+	\label{fig:fig_eps}
+\end{figure}
+
+
+\Blindtext
 
 Zu diesem Thema gibt es viele Quellen \Cite{Report2019,Conference2019}  und zu diesem noch mehr wichtige Quellen \Cite{Article2019,Book2019}.
 
