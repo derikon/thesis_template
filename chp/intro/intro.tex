@@ -4,4 +4,25 @@
 \label{sec:intro}
 
 \blindmathfalse
-\Blindtext[6]
+\Blindtext[1]
+
+\begin{table}[h!]
+    \caption{Arbeiten mit Farben in Tabellen}
+    \begin{center}
+    \begin{tabular}{lll}
+        \toprule
+                        &   \textbf{Col 1}          &   \textbf{Col 2}          \\
+        \midrule                                                                            
+        \textbf{Jahr}   &   2018                    &   2019                    \\
+        \midrule
+        \textbf{Row 1}  &   \cellcolor{green!20}ja  &   \cellcolor{green!20}ja  \\
+        \textbf{Row 2}  &   \cellcolor{green!20}ja  &   \cellcolor{green!20}ja  \\
+        \textbf{Row 3}  &   \cellcolor{red!20}nein  &   \cellcolor{red!20}nein  \\
+        \bottomrule
+    \end{tabular}
+    \end{center}
+    \label{tab:tabl}
+\end{table}
+
+
+\Blindtext[1]
